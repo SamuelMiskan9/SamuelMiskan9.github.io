@@ -1,0 +1,85 @@
+* {
+    text-decoration: none;
+    overflow-x: hidden;
+    font-family:'Inconsolata', monospace;
+}
+
+html, body{
+    background-image:url('https://samuelmiskan9.github.io/Backup-Images/bc2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    scroll-behavior: smooth;
+
+}
+
+.bio{
+    margin: 20px;   
+    background-color: none;
+    color: #000e72;
+}
+
+.bio:hover{
+    color: black;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 190px;
+    height:auto;
+    border: 1px solid black;
+}
+
+.foto:hover{
+    outline: 3px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.main{
+    background-color: rgb(34 44 98 /55% );
+    padding: 25px;
+    margin: 45px auto;
+    width: 750px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 /15%);
+}
+
+.main:hover{
+    outline: 2px solid black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+hr{
+    border-bottom: 1px solid black;
+}
+
+.contact{
+    background-color: black;
+    width: 190px;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+
+}
+
+.contact:hover{
+    background-color: rgb(34 44 98);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.bi{
+    width: 40px;
+    margin: 10px;
+    height: auto;
+}
+
+.bi:hover{
+    filter: invert();
+    transition: 0.4s;
+    cursor: pointer;
+}
